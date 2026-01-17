@@ -7,4 +7,4 @@ First clone this repository. then follow these steps
 2. Go to `chrome://extensions`.
 3. Enable **Developer mode** (top right corner).
 4. Click **Load unpacked**.
-5. Select this folder: `e:/Codes/No_Shorts`.
+5. Select this folder: 
