@@ -1,0 +1,29 @@
+/* Hide Shorts from Home Page Shelf */
+ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]) {
+    display: none !important;
+}
+
+/* Hide Shorts Tab in Sidebar (Desktop) */
+ytd-guide-entry-renderer a[title="Shorts"] {
+    display: none !important;
+}
+
+/* Hide Shorts Tab in Mini Sidebar (collapsed) */
+ytd-mini-guide-entry-renderer[aria-label="Shorts"] {
+    display: none !important;
+}
+
+/* Hide Shorts Tab in Bottom Bar (Mobile/Responsive) */
+ytd-pivot-bar-item-renderer:has(div.pivot-shorts) {
+    display: none !important;
+}
+
+/* Hide "Shorts" chip in the top filter bar */
+yt-chip-cloud-chip-renderer:has(span[title="Shorts"]) {
+    display: none !important;
+}
+
+/* Hide Shorts player container if directly accessed (optional fallback) */
+ytd-shorts {
+    display: none !important;
+}
